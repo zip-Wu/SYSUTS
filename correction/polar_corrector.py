@@ -40,7 +40,7 @@ import torch.nn as nn
 import torch.optim as optim
 from sklearn.preprocessing import StandardScaler
 
-from ..models.pinn_corrector import LiouvilleAxialPINN
+from .pinn_corrector import LiouvilleAxialPINN
 
 
 class PolarCorrector:
