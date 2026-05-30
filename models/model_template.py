@@ -1,5 +1,5 @@
 """
-models.model_template — 本科生模型接入模板
+models.model_template — 模型接入模板
 ===========================================
 
 复制此文件，重命名为你的模型名，修改 fit() 和 predict() 即可。
@@ -15,7 +15,7 @@ models.model_template — 本科生模型接入模板
                         输入同一残差序列，输出 (pred_len,) 的残差预报
 
 作者: 吴梓鹏
-版本: 模板，供后续本科生参考
+版本: 模板，供后续研究参考
 """
 
 import numpy as np
