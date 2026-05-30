@@ -2,7 +2,7 @@
 preprocessing.tide - 固体潮汐改正（RG_ZONT2）
 =============================================
 
-实现 IERS Conventions 2003 中定义的 62 项待谐潮汐改正。
+实现 IERS Conventions 2010 中定义的 62 项待谐潮汐改正。
 参考 GAMIT 源码 zont2.f，用于 UT1-UTC 预报的预处理环节。
 
 核心算法:
@@ -177,7 +177,7 @@ def RG_ZONT2(MJD: np.ndarray, EOP: str = 'UT1') -> np.ndarray:
     """
     计算固体地球待谐潮汐改正量（RG_ZONT2，62 项）。
 
-    参考: IERS Conventions 2003 / GAMIT 源码 zont2.f
+    参考: IERS Conventions 2010 / GAMIT 源码 zont2.f
 
     算法:
         - 根据 MJD 计算儒略世纪数 T
